@@ -1,0 +1,17 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "firebase-admin": "^13.4.0",
+    "nodemailer": "^6.10.0"
+  }
+}

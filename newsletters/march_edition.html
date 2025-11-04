@@ -1,0 +1,637 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineers Without Borders Nepal Newsletter</title>
+    <style type="text/css">
+        /* Reset styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+            line-height: 1.5;
+            color: #333333;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        img {
+            border: 0;
+            display: block;
+        }
+
+        /* Base styles */
+        .wrapper {
+            width: 100%;
+            background-color: #f5f5f5;
+            padding-bottom: 40px;
+        }
+
+        .main {
+            max-width: 600px;
+            background-color: #ffffff;
+            margin: 0 auto;
+            border: 5px solid #0f75bc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #0f75bc;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .logo-container-border {
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+
+        .logo-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .date-bar {
+            background-color: #f0f0f0;
+            padding: 8px 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .content-block {
+            padding: 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .section-title {
+            font-size: 25px;
+            font-weight: bold;
+            color: #0f75bc;
+            margin-bottom: 5px;
+
+        }
+
+        h1 {
+            margin: 0;
+            /* removes all margins */
+        }
+
+        h2 {
+            margin: 0;
+            /* removes all margins */
+        }
+
+        .section-subtitle {
+            font-size: 15px;
+            font-weight: bold;
+            color: #0f75bc;
+
+        }
+
+        .feature-image {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        .read-more {
+            color: #0f75bc;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .two-column {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .column {
+            max-width: 270px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .column-padding {
+            padding: 10px;
+            border: 1px solid #eeeeee;
+            border-radius: 4px;
+        }
+
+        .column-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .event-date {
+            background-color: #0f75bc;
+            color: #ffffff;
+            width: 60px;
+            text-align: center;
+            padding: 8px 0;
+            border-radius: 4px;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .event-details {
+            margin-left: 75px;
+        }
+
+        .volunteer-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+            float: left;
+        }
+
+        .cta {
+            background-color: #f0f0f0;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #0f75bc;
+            color: #ffffff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .footer {
+            background-color: #ffffff;
+            color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-links {
+            margin: 15px 0;
+        }
+
+        .social-icon {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .footer-links {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #555555;
+        }
+
+        .footer-link {
+            color: #999999;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        /* Mobile styles */
+        @media screen and (max-width: 600px) {
+            .column {
+                max-width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .volunteer-image {
+                float: none;
+                margin: 0 auto 15px;
+                display: block;
+            }
+
+            .volunteer-details {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <table class="main" width="100%">
+            <!-- HEADER -->
+            <tr>
+                <td class="header">
+                    <div class="logo-container-border">
+                        <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/logo.jpg" alt="EWB Nepal Logo"
+                            class="logo-image" />
+                    </div>
+                    <p style="margin: 5px 0 0; font-size: 14px">
+                        Uniting Engineers, Transforming Lives
+                    </p>
+                </td>
+            </tr>
+
+            <!-- DATE BAR -->
+            <tr>
+                <td class="date-bar">Quarterly Newsletter - March 2025</td>
+            </tr>
+
+            <!-- MAIN FEATURE -->
+            <tr>
+                <td class="content-block">
+                    <h1 class="section-title">Key Highlights</h1>
+                    <h2 class="section-subtitle">
+                        Kapil Dev Regmi’s USA Journey: Strengthening Global Collaboration
+                    </h2>
+                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/kapil%20usa%20visit.jpg"
+                        alt="Kapil Dev Regmi in the USA" class="feature-image" />
+                    <p>
+                        Kapil Dev Regmi, President-Elect of Engineers Without Borders
+                        International (EWBI) and President of EWB Nepal, recently embarked
+                        on a transformative journey to the USA. From attending the
+                        National Prayer Breakfast to engaging with Harvard and UC Berkeley
+                        students, his trip fostered global connections and opened doors
+                        for collaboration in sustainable engineering solutions.
+                    </p>
+                    <p style="text-align: right">
+                        <a href="https://medium.com/@ewbnepal2022/strengthening-global-collaboration-for-engineers-without-borders-0a3f839744e4"
+                            class="read-more">Read full story →</a>
+                    </p>
+                    <hr>
+                    <h2 class="section-subtitle">
+                        Strengthening Regional Ties: Meeting with EWB Sri Lanka President
+                    </h2>
+                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/sirilanka.jpg"
+                        alt="Kapil Dev Regmi in the USA" class="feature-image" />
+                    <p>
+                        Our team had the privilege of meeting Mr. Ranjith Dissanayake,
+                        President of Engineers Without Borders (EWB) Sri Lanka on February
+                        7, 2025. The discussion centered around learning culture,
+                        collaboration, and impactful engineering solutions, offering
+                        valuable insights into EWB Sri Lanka’s approach to sustainable
+                        development.
+                    </p>
+                    <p style="text-align: right">
+                        <a href="https://medium.com/@ewbnepal2022/february-2025-highlights-c1017a6dd569"
+                            class="read-more">Read full story →</a>
+                    </p>
+                </td>
+            </tr>
+
+            <!-- PROJECT UPDATES -->
+            <tr>
+                <td class="content-block">
+                    <h2 class="section-title">Project Updates</h2>
+                    <table width="100%">
+                        <tr class="two-column">
+                            <td class="column">
+                                <div class="column-padding">
+                                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/immersive%20new.jpg"
+                                        alt="Immersive Study Tour" class="column-image" />
+                                    <h2 class="section-subtitle">
+                                        Immersive Study Tour
+                                    </h2>
+                                    <p style="
+                        margin: 0 0 10px;
+                        font-size: 14px;
+                        color: #666666;
+                        padding: 3px;
+                      ">
+                                        Engineers Without Borders Nepal in collaboration with
+                                        IngOG+ Launches Immersive Study Tour 2025 to foster community-driven projects in
+                                        Nepal.
+                                    </p>
+                                    <a href="https://medium.com/@ewbnepal2022/engineers-without-borders-nepal-in-collaboration-with-ingog-launches-immersive-study-tour-2025-549ae31a038e"
+                                        class="read-more">Learn more</a>
+                                </div>
+                            </td>
+                            <td class="column">
+                                <div class="column-padding">
+                                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/dwbh%20new.jpg"
+                                        alt="Bridging Borders" class="column-image" />
+                                    <h2 class="section-subtitle">
+                                        Bridging Borders with DHBW Stuttgart
+                                    </h2>
+                                    <p style="margin: 0 0 10px; font-size: 14px; color: #666666">
+                                        EWBN and DHBW Stuttgart have launched a 9-week
+                                        international online program, uniting 20 Nepali and 20
+                                        German students to tackle real-world challenges
+                                        collaboratively.
+                                    </p>
+                                    <a href="https://medium.com/@ewbnepal2022/bridging-borders-ewb-nepal-dhbw-stuttgart-join-forces-for-a-global-learning-experience-0a3fef0f411e"
+                                        class="read-more">Learn more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr class="two-column">
+                            <td class="column">
+                                <div class="column-padding">
+                                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/dhalchowki.jpg"
+                                        alt="Dalchoki Project Scoping" class="column-image" />
+                                    <h2 class="section-subtitle">
+                                        Dalchoki Project Scoping
+                                    </h2>
+                                    <p style="margin: 0 0 10px; font-size: 14px; color: #666666">
+                                        On January 26 2025, EWBN team conducted a project scoping
+                                        visit to Dalchoki, Konjyosom Rural Municipality, to assess
+                                        the community’s challenges, resources, and potential
+                                        development opportunities.
+                                    </p>
+                                    <a href="https://medium.com/@ewbnepal2022/b4d6c6c6a3dc" class="read-more">Learn
+                                        more</a>
+                                </div>
+                            </td>
+                            <td class="column">
+                                <div class="column-padding">
+                                    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/new/janakpur.webp"
+                                        alt="Bridging Borders" class="column-image" />
+                                    <h2 class="section-subtitle">
+                                        Exploring Janakpurdham
+                                    </h2>
+                                    <p style="margin: 0 0 10px; font-size: 14px; color: #666666">
+                                        In March 2025, EWBN team began a photogrammetry project for a 360-degree Janaki
+                                        Temple tour in Janakpurdham.
+                                    </p>
+                                    <a href="https://medium.com/@ewbnepal2022/exploring-janakpurdham-a-fusion-of-technology-and-tradition-7902afd62477"
+                                        class="read-more">Learn more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- RECENT EVENTS -->
+            <tr>
+                <td class="content-block">
+                    <h2 class="section-title">Recent Events</h2>
+                    <table width="100%" ">
+                        <tr>
+                            <td>
+                  <div class=" event-date">
+                        <div class="event-date-day">03</div>
+                        <div class="event-date-month">JAN</div>
+    </div>
+    <div class="event-details">
+        <h2 class="section-subtitle">
+            3D Printing Workshop
+        </h2>
+        <p style="margin: 0 0 5px; font-size: 14px; color: #666666">
+            Kathmandu Engineering College - DRISTI 3.0 Pre-Event
+        </p>
+        <p style="margin: 0; font-size: 14px">
+            Participants explored 3D printing technology, fostering
+            innovation in humanitarian engineering.
+        </p>
+        <a href="https://medium.com/@ewbnepal2022/b4d6c6c6a3dc" class="read-more">Read full story →</a>
+    </div>
+    <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/3d.jpg" alt="Dalchoki Project Scoping"
+        class="column-image" />
+    <div style="clear: both"></div>
+    </td>
+    </tr>
+    </table>
+    <hr>
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="event-date">
+                    <div class="event-date-day">11</div>
+                    <div class="event-date-month">JAN</div>
+                </div>
+                <div class="event-details">
+                    <h2 class="section-subtitle">
+                        Virtual Learning Session on the Three Star Approach
+                    </h2>
+                    <p style="margin: 0 0 5px; font-size: 14px; color: #666666">
+                        Lalitpur, Nepal
+                    </p>
+                    <p style="margin: 0; font-size: 14px">
+                        EWBN’s virtual session with UNICEF experts explored the
+                        Three Star Approach, enhancing WASH standards in schools.
+                        It empowered attendees with strateges for scalable hygiene
+                        solutions. </p>
+                    <a href="https://medium.com/@ewbnepal2022/b4d6c6c6a3dc" class="read-more">Read full story →</a>
+                </div>
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/2star.jpg"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+                <div style="clear: both"></div>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="event-date">
+                    <div class="event-date-day">15</div>
+                    <div class="event-date-month">FEB</div>
+                </div>
+                <div class="event-details">
+                    <h2 class="section-subtitle">
+                        i-Jatra at Pragya Kunja School
+                    </h2>
+                    <p style="margin: 0 0 5px; font-size: 14px; color: #666666">
+                        Kathmandu, Nepal
+                    </p>
+                    <p style="margin: 0; font-size: 14px">
+                        Students showcased innovative projects, blending
+                        creativity and entrepreneurship.
+                    </p>
+                    <a href="https://medium.com/@ewbnepal2022/february-2025-highlights-c1017a6dd569"
+                        class="read-more">Read full story →</a>
+                </div>
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/ijatra.jpg"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+                <div style="clear: both"></div>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="event-date">
+                    <div class="event-date-day">8</div>
+                    <div class="event-date-month">MARCH</div>
+                </div>
+                <div class="event-details">
+                    <h2 class="section-subtitle">
+
+                        Nari DIVAS 2025: A Celebration of Women’s Empowerment
+                    </h2>
+                    <p style="margin: 0 0 5px; font-size: 14px; color: #666666">
+                        Lalitpur, Nepal
+                    </p>
+                    <p style="margin: 0; font-size: 14px">
+                        A vibrant celebration of International Women’s Day at Pimbahal, Sulimah, Patan.
+                    </p>
+                    <a href="https://medium.com/@ewbnepal2022/march-2025-highlights-1e944dbc3e8d" class="read-more">Read
+                        full story →</a>
+                </div>
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/nari-diwas-new.webp"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+                <div style="clear: both"></div>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+
+    <!-- OUTREACH SPOTLIGHT -->
+    <tr>
+        <td class="content-block">
+            <h2 class="section-title">Outreach Spotlight</h2>
+            <div class="volunteer-details">
+                <h2 class="section-subtitle">
+                    Engaging Future Changemakers
+                </h2>
+                <p style="margin: 0; font-size: 14px">
+                    EWBN launched outreach at Xavier International and Kathmandu
+                    Engineering College, raising funds and inspiring students to
+                    join our mission.
+                </p>
+                <a href="https://medium.com/@ewbnepal2022/b4d6c6c6a3dc" class="read-more">Read full story →</a>
+
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/outreach.jpg"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+            </div>
+            <div style="clear: both"></div>
+            <hr>
+            <div class="volunteer-details">
+                <h2 class="section-subtitle">
+                    Junior EWB-Nepal Chapter: Empowering Young Changemakers
+                </h2>
+                <p style="margin: 0; font-size: 14px">
+                    Exciting times ahead as we witness the next generation of changemakers in action! The Junior
+                    Engineers Without Borders Nepal (EWB-N) Chapter at Kathmandu Pragya Kunja School is brimming with
+                    bright minds eager to learn, grow, and make a difference.
+                </p>
+                <a href="https://medium.com/@ewbnepal2022/march-2025-highlights-1e944dbc3e8d" class="read-more">Read
+                    full story →</a>
+
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/jnior.webp"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+            </div>
+            <hr>
+            <div class="volunteer-details">
+                <h2 class="section-subtitle">
+                    Exploring Sikles & Sustainable Engineering with EWBN Pokhara University
+                </h2>
+                <p style="margin: 0; font-size: 14px">
+                    Engineers Without Borders Pokhara University Chapter conducted a project scoping visit to Sikles,
+                    combining cultural immersion with initiatives like the Kontiki Furnace for sustainable biochar
+                    production. </p>
+                <a href="https://medium.com/@ewbnepal2022/project-highlights-of-engineers-without-borders-pokhara-university-chapter-b09cca0663eb"
+                    class="read-more">Read full story →</a>
+
+                <img src="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/pokhara%20chapter.webp"
+                    alt="Dalchoki Project Scoping" class="column-image" />
+            </div>
+        </td>
+    </tr>
+
+    <!-- CALL TO ACTION -->
+    <tr>
+        <td class="cta">
+            <h2 class="section-title" style="margin-bottom: 10px">
+                Support Our Mission
+            </h2>
+            <p style="margin: 0 auto 15px; max-width: 400px; font-size: 14px">
+                Your contribution empowers us to deliver sustainable engineering
+                solutions to communities in need.
+            </p>
+            <a href="https://cdn.jsdelivr.net/gh/suwubham/ewbn-assets@main/Donate%20Now%20-%20EWBN.png" class="button"
+                style="color: white">Donate Now</a>
+        </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+        <td class="footer">
+            <table width="100%">
+                <tr>
+                    <td style="text-align: center; padding-bottom: 15px">
+                        <h3 style="margin: 0 0 10px; font-size: 18px">
+                            Engineers Without Borders Nepal
+                        </h3>
+                        <p style="margin: 0; font-size: 14px; color: #cccccc">
+                            Kathmandu, Nepal
+                        </p>
+                        <p style="margin: 5px 0 0; font-size: 14px; color: #cccccc">
+                            <a href="mailto:contact@ewb.org.np">contact@ewb.org.np</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/EngineersWithoutBordersNepal/" class="social-icon">
+                                <img src="https://static.vecteezy.com/system/resources/previews/023/986/613/large_2x/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png"
+                                    alt="Facebook" width="35" height="35" />
+                            </a>
+                            <a href="https://www.instagram.com/ewb_nepal/" class="social-icon">
+                                <img src="https://clipart.info/images/ccovers/1516920567instagram-png-logo-transparent.png"
+                                    alt="Instagram" width="30" height="30" />
+                            </a>
+                            <a href="https://www.linkedin.com/company/engineers-without-borders-nepal/"
+                                class="social-icon">
+                                <img src="https://www.pinclipart.com/picdir/middle/97-971470_linkedin-linkedin-social-media-icons-clipart.png"
+                                    alt="LinkedIn" width="30" height="30" />
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="footer-links">
+                        <p style="margin: 0 0 10px">
+                            © 2025 Engineers Without Borders Nepal. All rights reserved.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="cta">
+            <p style="color: #666; font-size: 12px; margin-bottom: 15px;">
+                Don't want to receive these emails anymore?
+            </p>
+            <a href=""
+                style="background-color: #dc3545; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                Unsubscribe
+            </a>
+        </td>
+    </tr>
+
+    <!-- Unsubscribe Section -->
+    <tr>
+        <div style="">
+
+        </div>
+    </tr>
+    </table>
+    </div>
+
+</body>
+
+</html>
