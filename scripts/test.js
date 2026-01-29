@@ -20,7 +20,7 @@ const logFilePath = path.join(__dirname, "email_log.txt");
 
 async function main() {
   const htmlContent = fs.readFileSync(
-    path.join(__dirname, "..", "july_edition.html"),
+    path.join(__dirname, "..", "newsletters", "october_edition.html"),
     "utf-8"
   );
 
