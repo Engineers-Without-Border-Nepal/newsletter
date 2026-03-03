@@ -33,7 +33,7 @@ const transporter = nodemailer.createTransport({
 
 async function getSubscribersFromDatabase() {
   try {
-    const subscribersRef = db.collection("chapter");
+    const subscribersRef = db.collection("stars");
     const snapshot = await subscribersRef.where("isActive", "==", true).get();
 
     if (snapshot.empty) {
@@ -64,11 +64,11 @@ function personalizeEmailContent(htmlContent, userId) {
   return htmlContent.replace(/userid=409238740234/g, `userid=${userId}`);
 }
 
-const logFilePath = path.join(__dirname, "chapter_log.txt");
+const logFilePath = path.join(__dirname, "stars_log.txt");
 
 async function main() {
   const htmlContent = fs.readFileSync(
-    path.join(__dirname, "..", "newsletters", "october_edition.html"),
+    path.join(__dirname, "..", "newsletters", "december_edition.html"),
     "utf-8"
   );
 
@@ -94,7 +94,7 @@ async function main() {
       await transporter.sendMail({
         from: '"EWB Nepal" <contact@ewb.org.np>',
         to: subscriber.email,
-        subject: "EWBN Newsletter | October Edition",
+        subject: "EWBN Newsletter | December Edition",
         html: personalizedContent,
       });
 
