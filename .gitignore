@@ -3,3 +3,4 @@ serviceAccountKey.json
 .env
 /scripts/*log*
 /assets
+/mailing_lists
